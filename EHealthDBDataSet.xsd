@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EHealthDBDataSet" targetNamespace="http://tempuri.org/EHealthDBDataSet.xsd" xmlns:mstns="http://tempuri.org/EHealthDBDataSet.xsd" xmlns="http://tempuri.org/EHealthDBDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="EHealthDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="EHealthDBConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.E_Health_App.My.MySettings.GlobalReference.Default.EHealthDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EHealthDBDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="EHealthDBDataSet" msprop:Generator_UserDSName="EHealthDBDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="doctor" msprop:Generator_TableClassName="doctorDataTable" msprop:Generator_TableVarName="tabledoctor" msprop:Generator_TablePropName="doctor" msprop:Generator_RowDeletingName="doctorRowDeleting" msprop:Generator_RowChangingName="doctorRowChanging" msprop:Generator_RowEvHandlerName="doctorRowChangeEventHandler" msprop:Generator_RowDeletedName="doctorRowDeleted" msprop:Generator_UserTableName="doctor" msprop:Generator_RowChangedName="doctorRowChanged" msprop:Generator_RowEvArgName="doctorRowChangeEvent" msprop:Generator_RowClassName="doctorRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="patient" msprop:Generator_TableClassName="patientDataTable" msprop:Generator_TableVarName="tablepatient" msprop:Generator_TablePropName="patient" msprop:Generator_RowDeletingName="patientRowDeleting" msprop:Generator_RowChangingName="patientRowChanging" msprop:Generator_RowEvHandlerName="patientRowChangeEventHandler" msprop:Generator_RowDeletedName="patientRowDeleted" msprop:Generator_UserTableName="patient" msprop:Generator_RowChangedName="patientRowChanged" msprop:Generator_RowEvArgName="patientRowChangeEvent" msprop:Generator_RowClassName="patientRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="doctor_session" msprop:Generator_TableClassName="doctor_sessionDataTable" msprop:Generator_TableVarName="tabledoctor_session" msprop:Generator_TablePropName="doctor_session" msprop:Generator_RowDeletingName="doctor_sessionRowDeleting" msprop:Generator_RowChangingName="doctor_sessionRowChanging" msprop:Generator_RowEvHandlerName="doctor_sessionRowChangeEventHandler" msprop:Generator_RowDeletedName="doctor_sessionRowDeleted" msprop:Generator_UserTableName="doctor_session" msprop:Generator_RowChangedName="doctor_sessionRowChanged" msprop:Generator_RowEvArgName="doctor_sessionRowChangeEvent" msprop:Generator_RowClassName="doctor_sessionRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
