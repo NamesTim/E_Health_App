@@ -1,0 +1,3 @@
+# E_Health_App
+This is a desktop app I made in VB that I intended be for organizing the stored information about patients i.e patient's data.
+The app was a little miss on the data model, the database is therefore not what I had envisioned...
